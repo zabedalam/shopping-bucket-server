@@ -18,5 +18,5 @@ const BucketSchema = new Schema(
   { timestamps: true }
 );
 
-const Items = model("Items", BucketSchema);
-module.exports = Items;
+const Bucket = model("Bucket", BucketSchema);
+module.exports = Bucket;
